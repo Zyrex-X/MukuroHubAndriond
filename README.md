@@ -4283,7 +4283,7 @@ end)
 
 Setting:Label("Auto Farm Setting")
 
-Y = 7
+Y = 50
 Setting:Slider("Distance [Default 20]", 0,75,Y, function(vu)
 	Y = vu
 end)

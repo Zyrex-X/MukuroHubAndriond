@@ -4283,8 +4283,8 @@ end)
 
 Setting:Label("Auto Farm Setting")
 
-Y = 3
-Setting:Slider("Distance [Default 20]", 0,50,Y, function(vu)
+Y = 7
+Setting:Slider("Distance [Default 20]", 0,75,Y, function(vu)
 	Y = vu
 end)
 
